@@ -559,10 +559,11 @@ footer .copyright{
     padding: 0 80px;
     background-position: top 30% right 30%;
   }
+  
   #feature{
     justify-content: center;
   }
-  #feature .box{
+  #feature .fe-box{
     margin: 15px 15px;
   }
 
@@ -611,13 +612,17 @@ footer .copyright{
     background-position: 55%;
   }
 
-  #feature{
+  #feature {
     justify-content: space-between;
-  }  
-  #feature .fe-box {
-    width: 150px;
-    margin: 15;
   }
+  #feature .fe-box{
+    width: 150px;
+    margin: 0 0 15px 0;
+  }
+
+
+
+
   #product1 .pro {
     width: 100%;
   }
