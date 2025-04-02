@@ -348,7 +348,7 @@ body {
 }
 #sm-banner span{
   color: #fff;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 500;
   padding-bottom: 15px;
 }
@@ -386,12 +386,12 @@ body {
 #banner3 h2{
   color: #fff;
   font-weight: 900;
-  font-size: 15px;
+  font-size: 14px;
 }
 #banner3 h3{
   color: red;
   font-weight: 800;
-  font-size: 15px;
+  font-size: 14px;
 }
 #newsletter{
   display: flex;
@@ -453,11 +453,11 @@ footer .logo{
   margin-bottom: 30px;
 }
 footer h4{
-  font-size: 14px;
+  font-size: 13px;
   padding-bottom: 20px;
 }
 footer p{
-  font-size: 13px;
+  font-size: 12px;
   margin: 0 0 8px 0;
 }
 footer  a{
@@ -536,7 +536,7 @@ footer .copyright{
   }
   .mobile{
     color: black;
-    font-size: 24px;
+    font-size: 20px;
     padding-left: 20px;
   }
   #close{
@@ -603,10 +603,10 @@ footer .copyright{
     padding: 10px 30px;
   }
   h1 {
-    font-size: 38px;
+    font-size: 34px;
   }
   h2 {
-    font-size: 32px;
+    font-size: 28px;
   }
   #hero {
     padding: 0 20px;
@@ -648,8 +648,21 @@ footer .copyright{
   }
   
   footer a{
-    font-size: 14px;
+    font-size: 13px;
   }
+  #prodetails {
+    display: flex;
+    flex-direction: column;
+  }
+  #prodetails .single-pro-image {
+    width: 100%;
+    margin-right: 0px;
+  }
+  #prodetails .single-pro-details {
+    width: 100%;
+    
+  }
+
 }
 
 /*shop page style */
@@ -684,6 +697,62 @@ footer .copyright{
 #pagination a i{
   font-size:16px;
   font-weight: 600;
+}
+
+/* Single page Styles */
+
+#prodetails {
+  display: flex;
+  margin-top: 20px;
+}
+
+#prodetails .single-pro-image{
+  width: 40%;
+  margin-right: 50px;
+}
+.small-img-group {
+  display:flex;
+  justify-content: space-between;
+}
+.small-img-col {
+  flex-basis: 24%;
+  cursor: pointer;
+}
+#prodetails .single-pro-details {
+  width: 50%;
+  padding-top: 30px;
+  text-align: justify;
+}
+#prodetails .single-pro-details h4 {
+  padding: 40px 0 20px 0;
+}
+#prodetails .single-pro-details h2 {
+  font-size: 24px;
+}
+#prodetails .single-pro-details select {
+  display: block;
+  padding: 5px 10px ;
+  margin-bottom: 10px;
+}
+#prodetails .single-pro-details input {
+  width: 50px;
+  height: 47px;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+#prodetails .single-pro-details input:focus {
+  outline: none;
+}
+
+#prodetails .single-pro-details button{
+  background-color: #307a5a;
+  color: #fff;
+}
+
+#prodetails .single-pro-details span {
+  line-height: 25px;
+  
 }
 
 
