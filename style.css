@@ -647,7 +647,9 @@ footer .copyright{
     width: 100%;
   }
   
-
+  footer a{
+    font-size: 14px;
+  }
 }
 
 
