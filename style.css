@@ -654,11 +654,11 @@ footer .copyright{
     display: flex;
     flex-direction: column;
   }
-  #prodetails .single-pro-image {
+  .single-pro-image {
     width: 100%;
     margin-right: 0px;
   }
-  #prodetails .single-pro-details {
+  .single-pro-details {
     width: 100%;
     
   }
@@ -706,8 +706,8 @@ footer .copyright{
   margin-top: 20px;
 }
 
-#prodetails .single-pro-image{
-  width: 40%;
+.single-pro-image{
+  width: 100%;
   margin-right: 50px;
 }
 .small-img-group {
@@ -718,8 +718,8 @@ footer .copyright{
   flex-basis: 24%;
   cursor: pointer;
 }
-#prodetails .single-pro-details {
-  width: 50%;
+.single-pro-details {
+  width: 100%;
   padding-top: 30px;
   
 }
@@ -741,16 +741,16 @@ footer .copyright{
   font-size: 16px;
   margin-right: 10px;
 }
-#prodetails .single-pro-details input:focus {
+.single-pro-details input:focus {
   outline: none;
 }
 
-#prodetails .single-pro-details button{
+.single-pro-details button{
   background-color: #307a5a;
   color: #fff;
 }
 
-#prodetails .single-pro-details span {
+#prodetails.single-pro-details span {
   line-height: 25px;
   
 }
